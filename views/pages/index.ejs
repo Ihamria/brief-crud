@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .navbar-brand{
+    font-family: cursive !important;
+    margin-left: 45%;
+    font-size: 50px !important;
+    
+}
+#nav{
+background-color: #F08080 !important ;
+
+}
+.card{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#btn{
+    color: #DCDCDC;
+    border-color:#DCDCDC ;
+    
+}
+
+.form-control{
+    width: 35% !important;
+
+}
+.for{
+    margin-left: 17% !important;
+    position: relative;
+    margin-top: 35%;
+}
+#in{
+    width: 245px !important;
+}
+.in1{
+    width: 245px !important;
+    margin-top: 6%;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card{
+    margin-top: 8% !important;
+    margin-left: 12%;
+    height: 350px;
+}
+#in2{
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.btn-secondary{
+    margin-top: 3% !important;
+    width: 245px !important;
+    margin-top: 6%;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary{
+    margin-left: 19% !important;
+    margin-top: 21%;
+    width: 60%;
+}
+.card{
+    width: 20rem !important;
+}
+.cards{
+    display: inline-block;
+  
+}
+#white{
+    height: 305px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <a class="navbar-brand" href="#">Store</a>
+</nav>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+  <form class="card" style="width: 18rem;" id="white" action="/add" method="POST">
+    <div class="shadow-lg p-3 mb-5 bg-white rounded" >
+            <div class="input-group mb-3">
+               
+            <form class="card-body" action="/add" method="POST">
+              <input type="text" name="Marque" placeholder="Enterer le Nom de votre Marque" id="Marque" class="in1" >
+              <input type="text" name="Collection" placeholder="Enterer le Nom de votre Collection" id="Collection" class="in1">
+              <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                            <label for="Categorie"></label>
+                          <select class="btn btn-secondary dropdown-toggle" id="Categorie" name="Categorie" >                            <option value="HOMME"  class="custom-select mr-sm-2">HOMME</option>
+                            <option value="FEMME" class="custom-select mr-sm-2">FEMME</option>
+                            <option value="ENFANT" class="custom-select mr-sm-2">ENFANT</option>
+                          </select>
+                        </div>
+              </div>
+                          <button type="submit" class="btn btn-primary" id="go" value="">go</button>
+
+            </form>
+
+            
+</body>
+</html>
